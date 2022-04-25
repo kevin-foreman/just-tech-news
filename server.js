@@ -1,4 +1,5 @@
 const express = require('express');
+// Could this handle lines 1 and 9 simultaneously? 'const app = require('express')(); It can, but in the case where you need some middleware to handle JSON (almost always), you need to structure it like we have here
 
 const routes = require('./routes');
 
@@ -14,7 +15,6 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-
 // turn on routes
 app.use(routes);
 
@@ -22,5 +22,5 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
 
     app.listen(PORT, () => console.log('Now listening'));
-    
+
 });
