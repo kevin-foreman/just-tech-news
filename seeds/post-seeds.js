@@ -2,23 +2,23 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
-    post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    title: 'SEC Charges NVIDIA Corporation with Inadequate Disclosures about Impact of Cryptomining.',
+    post_url: 'https://www.sec.gov/news/press-release/2022-79',
     user_id: 10
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'https://nasa.gov/donec.json',
+    title: 'Sentry.io outage.',
+    post_url: 'https://status.sentry.io/',
     user_id: 8
   },
   {
-    title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    post_url: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    title: 'Microsoft insults dev, then takes credit for their idea.',
+    post_url: 'https://twitter.com/cmuratori/status/1522468481135902725',
     user_id: 1
   },
   {
-    title: 'Nunc purus.',
-    post_url: 'http://desdev.cn/enim/blandit/mi.jpg',
+    title: 'GraphQL is a Trap?',
+    post_url: 'https://www.odata.org/getting-started/basic-tutorial/',
     user_id: 4
   },
   {
