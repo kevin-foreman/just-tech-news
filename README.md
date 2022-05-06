@@ -3,8 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# Title
-Tech News Clone
+# Tech News Clone
 
 ## Description
 Web application for users to post and view tech related articles from anywhere on the web!
